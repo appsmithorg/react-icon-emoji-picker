@@ -10,7 +10,7 @@ import emojiSet from "emoji-datasource/emoji.json";
 import { convertIconToHTML } from "./utils";
 type IconSet = { [name: string]: IconDefinition | IconPrefix | IconPack };
 
-const icons: Array<Icon | undefined> | undefined = Object.keys(Icons as IconSet)
+const icons: Array<Icon | undefined> | undefined = Object.keys(Icons)
   .map((name: string) => {
     if (/^fa[A-Z]\w+/.test(name)) {
       let _name = name.slice(2);

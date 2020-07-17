@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "quotes": ["error", "double", { "avoidEscape": true }]
+  },
+  "plugins": [
+    "jsx-a11y",
+    "react"
+  ],
+  "parser": "babel-eslint"
+}
