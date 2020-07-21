@@ -21,7 +21,7 @@
     "emoji-datasource-google": "^5.0.1",
     "emoji-datasource-twitter": "^5.0.1",
     "fuse.js": "^5.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
