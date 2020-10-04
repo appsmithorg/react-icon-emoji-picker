@@ -40,6 +40,6 @@ At any point we may want to refactor the code at our discretion
   - The uploaded icon can be stored in localStorage. Use of `redux-sagas` is recommended.
   - An uploading indicator, error in upload indicator and successful upload status indicator can be added as features.
   - The uploaded icon can be listed at the top in the popup under the group of "uploaded icons"
-  - The uploaded icon can be stored in a redux store to avoid the need to load from localstorage everytime.
+  - The uploaded icon can be stored in a redux store to avoid the need to load from the local storage everytime.
 - [ ] Include `redux-form` and create a `Field` component which wraps the EmojiIconSelector
 - [ ] Add jest unit tests.
